@@ -1,0 +1,329 @@
+/* Hamburger */
+.navbar-toggler {
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  display: none;
+  border-radius: 6px;
+  z-index: 10;
+}
+.navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-toggler i {
+  font-size: 24px;
+  color: white;
+}
+
+/* NavBar */
+.Nav-Bar-Wrapper {
+  width: 100%;
+  background-color: #0A003C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.Nav-Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 38.5px;
+  max-width: 1200px; /* keeps the inner content neat */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.Zzz-Logo {
+  width: 35.5px;
+  height: auto;
+}
+
+.Zzz-Logo-about {
+  width: 32.5px;
+  height: auto;
+  padding-right: 5px;
+}
+.Logo-Name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.Deep-Sleep {
+  font-family: Anton, sans-serif;
+  font-weight: 390;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+}
+
+.Sleep-Logo {
+  color: rgb(102, 74, 183);
+}
+
+.Nav-Links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Nav Buttons */
+.nav-btn {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(224, 224, 224);
+  background: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s, border 0.3s;
+  text-decoration: none;
+}
+.nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid white;
+}
+.login-btn{
+  background-color: white;
+  color: #0A003C;
+  font-weight: 500;
+  border-color: #0A003C;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 6px 14px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.3s ease,;
+  padding-right: 10px;
+}
+.login-btn:hover{
+  background-color: #0A003C;
+  color:white;
+  border-color: white;
+  transform: scale(1);
+}
+.div-login button {
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.div-login button:hover {
+  color: #fff;
+  transform: scale(1); /* Slight zoom effect */
+}
+
+.singup-btn{
+  background-color: white;
+  color: #0A003C;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  border-color: #0A003C;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.3s ease,;
+}
+.singup-btn:hover{
+  background-color: #0A003C;
+  color:white;
+  border-color: white;
+  transform: scale(1);
+}
+/* Offcanvas */
+.Half-Offcanvas {
+  width: 50%;
+  background-color: #0A003C;
+  backdrop-filter: blur(10px);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+}
+
+.offcanvas-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.offcanvas-header {
+  background-color: transparent;
+}
+
+.offcanvas-header .btn-close {
+  filter: invert(1);
+}
+
+.Cross-Buttom .btn-close {
+  margin-left: 190px;
+}
+
+.offcanvas-body .nav-btn:hover {
+  background-color: #0A003C(255, 255, 255, 0.15);
+  border-color: white;
+}
+
+/* Hide elements on small screens */
+@media (max-width: 900px) {
+  .Nav-Links {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+}
+@media (max-width:594px) and (min-width:461px) {
+  .Nav-Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Zzz-Logo {
+  width: 35px;
+  height: auto;
+}
+
+.Deep-Sleep {
+  font-family: Anton, sans-serif;
+  font-weight: 390;
+  color: white;
+  margin: 0;
+  font-size: 25px;
+}
+
+}
+@media (max-width:460px) and (min-width:380px) {
+.Nav-Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Zzz-Logo {
+  width: 35px;
+  height: auto;
+}
+
+.Deep-Sleep {
+  font-family: Anton, sans-serif;
+  font-weight: 390;
+  color: white;
+  margin: 0;
+  font-size: 22px;
+}
+}
+@media (max-width:379px) and (min-width:279px){
+  .Nav-Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Nav-Bar .Zzz-Logo {
+  width: 20px;
+  height: auto;
+}
+
+.Nav-Bar .Deep-Sleep {
+  font-family: Anton, sans-serif;
+  font-weight: 390;
+  color: white;
+  margin: 0;
+  font-size: 15px;
+}
+}
+@media (max-width:350px) and (min-width: 279px){
+  .Nav-Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Zzz-Logo {
+  width: 27px;
+  height: auto;
+}
+
+.Deep-Sleep {
+  font-family: Anton, sans-serif;
+  font-weight: 390;
+  color: white;
+  margin: 0;
+  font-size: 20px;
+}
+}
+/* Example for max-width 594px */
+@media (max-width:594px) and (min-width:461px) {
+  .login-btn, .singup-btn {
+    padding: 4px 10px;
+    font-size: 14px;
+  }
+}
+
+/* Example for max-width 460px */
+@media (max-width:460px) and (min-width:380px) {
+  .login-btn, .singup-btn {
+    padding: 3px 8px;
+    font-size: 13px;
+  }
+}
+
+/* Example for max-width 379px */
+@media (max-width:379px) and (min-width:279px){
+    .div-login {
+    gap: 1px;
+  }
+
+  .login-btn,
+  .singup-btn {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .navbar-toggler i {
+    font-size: 15px;
+  }
+
+    .Nav-Bar {
+    padding: 6px 10px;
+  }
+}
+
+

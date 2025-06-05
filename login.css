@@ -1,0 +1,157 @@
+.login-section {
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+.login-wrapper {
+background: rgba( 255, 255, 255, 0.2 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border-radius: 20px;
+padding: 2rem;
+}
+.signup-section {
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+.signup-wrapper {
+background: rgba( 255, 255, 255, 0.2 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+border-radius: 20px;
+padding: 2rem;
+}
+/* Heading "Your Logo" and "Login" styling */
+.logo-text {
+color: var(--accent-color);
+margin-bottom: 0.5rem;
+font-weight: 600;
+}
+.login-title {
+color: var(--text-color);
+margin-bottom: 1.5rem;
+font-weight: 600;
+}
+.singup-title {
+color: var(--text-color);
+margin-bottom: 1.5rem;
+font-weight: 600;
+}
+/* Form labels and placeholders */
+.form-label {
+font-weight: 500;
+color: var(--text-color);
+}
+.form-control {
+border-radius: 8px;
+}
+/* Sign In button with accent color */
+.btn-accent {
+background-color: #0A003C;
+font-family: 'Montserrat', sans-serif !important;
+border-radius: 30px !important;
+}
+.btn-accent:hover {
+background-color: #e76d3b;
+/* slightly darker orange on hover */
+border-color: #e76d3b;
+}
+/* Social login buttons */
+.social-login {
+display: flex;
+gap: 1rem;
+justify-content: center;
+}
+.social-btn {
+width: 48px;
+height: 48px;
+border-radius: 50%;
+border: 1px solid #ddd;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background 0.3s;
+}
+.social-btn:hover {
+background: #f2f2f2;
+}
+/* Right column image: adjust max-width or height to fit your design */
+.character-img {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
+/* Responsive behavior */
+@media (max-width: 992px) {
+.login-section {
+padding: 2rem 1rem;
+}
+.character-col {
+margin-top: 2rem;
+}
+}
+.btn-hv{
+transition: 0.5s;
+font-family: poppins;
+padding: 5px 10px 5px 10px;
+border-style: solid;
+border-color: white;
+border-width: 1px ;
+color: white;
+background-color: #18114d;
+font-size: 16.5px;
+border-radius: 2px;
+margin-top:0px;
+}
+.btn-hv:hover{
+border-color: #18114d;
+color: #18114d;
+background-color: white;
+font-weight: 500;
+}
+.btn{
+transition: 0.5s;
+font-family: poppins;
+padding: 5px 10px 5px 10px;
+border-style: solid;
+border-color: white;
+border-width: 1px ;
+color: white;
+font-size: 16.5px;
+border-radius: 2px;
+margin-top:0px;
+}
+.btn:hover{
+border-color: #18114d;
+color: #18114d;
+background-color: white;
+font-weight: 500;
+}
+.btn-danger{
+background-color:#0A003C;
+border-radius: 30%;
+font-weight: 500;
+border-style: solid;
+border-radius: 25px;
+padding: 8px 20px;
+font-size: 13px;
+font-family: Montserrat, sans-serif;
+cursor: pointer;
+transition: background-color 0.2s ease, transform 0.3s ease,;
+}
+.btn-danger:hover{
+border-color: #18114d;
+color: #18114d;
+background-color: white;
+font-weight: 500;
+}
+.modal-footer{
+margin-top: 40px;
+}

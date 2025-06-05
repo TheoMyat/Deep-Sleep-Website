@@ -1,0 +1,180 @@
+body {
+font-family: montserrat;
+margin: 0;
+background-color: #0A003C;
+}
+.footer {
+background-color: rgb(10,0,60);
+color: #ccc;
+padding: 20px 10px;
+}
+.footer-Hi{
+background-color: rgb(10,0,60);
+color: #ccc;
+padding: 20px 10px;
+margin-top: 90px;
+}
+
+.footer-container {
+max-width: 1200px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.footer-column {
+flex: 1;
+min-width: 180px;
+margin: 10px;
+}
+.footer-column h4 {
+margin-bottom: 15px;
+}
+.footer-logo {
+display: flex;
+flex-direction: column;
+}
+.footer-logo img {
+width: 120px;
+margin-bottom: 10px;
+}
+.footer-bottom {
+text-align: center;
+margin-top: 3px;
+border-top: 1px solid #333;
+padding-top: 15px;
+font-size: 14px;
+color: #888;
+}
+.border border-dark p-2 m-5{
+display: inline-block;
+}
+.modal-title{
+color: black;
+}
+.fb-logo svg,
+.ig-logo svg,
+.youtube-logo svg {
+fill: white;
+color: white;
+}
+.list-unstyled{
+list-style: none;
+}
+.fb-logo{
+padding-top: 13px;
+padding-left: 0px;
+display: inline-block;
+list-style: none;
+}
+.ig-logo{
+padding-left: 5px;
+align-items: center;
+display: inline-block;
+list-style: none;
+}
+.youtube-logo{
+padding-left: 6px;
+align-items: center;
+display: inline-block;
+list-style-type: none;
+}
+.sleep-photo{
+padding-left: 0px;
+display: inline-block;
+width: 38px;
+}
+a.text-decoration-none {
+color: inherit;       /* Makes the link text use the parent’s color */
+text-decoration: none; /* Removes underline */
+}
+.text-sleep{
+padding-top: 3px;
+line-height: 20px;
+}
+.btn-contact{
+font-family: 'Montserrat';
+padding: 5px 10px 5px 10px;
+border-style: solid;
+border-color: white;
+border-width: 1px ;
+color: white;
+background-color: #18114d;
+font-size: 16.5px;
+border-radius: 25px;
+margin-top:0px;
+margin-bottom: 10px;
+}
+.btn-contact:hover{
+transition: 0.5s;
+border-color: #18114d;
+color: #18114d;
+background-color: white;
+font-weight: 500;
+}
+.company-style{
+margin-top: 8px;
+padding-left: 0px;
+}
+.home-gap{
+list-style-type: none;
+padding-bottom: 3px;
+}
+.btn-hover{
+transition: 0.5s;
+font-family: 'Montserrat';
+padding: 5px 14px 5px 14px;
+border-style: solid;
+border-color: white;
+border-width: 1px ;
+color: white;
+background-color: #18114d;
+font-size: 16.5px;
+border-radius: 25px;
+margin-top:0px;
+}
+.btn-hover:hover{
+border-color: #18114d;
+color: #18114d;
+background-color: white;
+font-weight: 500;
+}
+.title{
+color:white;
+margin-left: 10px;
+font-family: anton;
+margin-bottom: 0px;
+}
+.sleep-text{
+color:#664AB7;
+padding-top: 2px;
+}
+.col-lg-2{
+margin-top: 10px;
+}
+.modal-header border-1{
+padding: 8px 0px 8px 13px;
+}
+.modal-title{
+font-size: 25px;
+padding: 0px;
+}
+.btn-close{
+padding-left: 50px;
+}
+.modal-body{
+padding-top: 10px;
+padding-right: 35px;
+}
+.phone-logo{
+padding-top: 5px;
+}
+.location-down{
+padding-left: 18px;
+}
+.col-md-7{
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.form-label{
+padding-top: 5px;
+}

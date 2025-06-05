@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Deep Sleep</title>
+      <!-- Bootstrap & Icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+      <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="Css/navbar.css" />
+      <link rel="stylesheet" href="Css/hi.css" />
+      <link rel="stylesheet" href="Css/sconlinfo.css" />
+      <link rel="stylesheet" href="Css/login.css" />
+      <link rel="stylesheet" href="Css/contact.css" />
+      <link rel="icon" type="image/x-icon" href="Image/favicon (2).ico">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!-- NavBar Section -->
+      <div class="Nav-Bar-Wrapper">
+         <div class="Nav-Bar">
+            <div class="Logo-Name">
+               <img class="Zzz-Logo" src="Image/Logo-New-removebg-preview.png" alt="Zzz Logo" />
+               <p class="Deep-Sleep">Deep<span class="Sleep-Logo"> Sleep</span></p>
+            </div>
+            <!-- Nav Links -->
+            <div class="Nav-Links">
+               <a href="index.html"><button class="nav-btn">Home</button></a>
+               <a href="about.html"><button class="nav-btn">About</button></a>
+               <a href="blog.html"><button class="nav-btn">Blog</button></a>
+               <a href="#foot"><button class="nav-btn">Contact</button></a>
+            </div>
+            <div class="div-login" style="display: flex; align-items: center; gap: 10px;">
+               <button class="login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">
+               <span>Log In</span>
+               </button>
+               <button class="singup-btn" data-bs-toggle="modal" data-bs-target="#signupModal">
+               <span>Sign Up</span>
+               </button>
+               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-label="Toggle menu">
+               <i class="bi bi-list"></i>
+               </button>
+            </div>
+         </div>
+      </div>
+      <!-- Offcanvas Menu -->
+      <div class="offcanvas offcanvas-end Half-Offcanvas w-50" id="offcanvas">
+         <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Setting</h5>
+            <div class="Cross-Buttom">
+               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+         </div>
+         <div class="offcanvas-body">
+            <a href="index.html"><button class="nav-btn w-100 mb-2">Home</button></a>
+            <a href="about.html"><button class="nav-btn w-100 mb-2">About</button></a>
+            <a href="blog.html"><button class="nav-btn w-100 mb-2">Blog</button></a>
+            <a href="contact.html"><button class="nav-btn w-100 mb-3">Contact</button></a>
+         </div>
+      </div>
+      <!-- Main Content -->
+      <div class="container" style="padding-top: 140px;">
+         <div class="row">
+            <div class="col-md-8 ps-4">
+               <p class="text-white fw-bold mb-3" style="font-family: Montserrat, sans-serif; font-size: 36px; line-height: 54px;">
+                  Here to help you Good Night's <span class="d-none d-sm-inline"><br></span>
+                  Sleep tonight
+               </p>
+               <p class="text-white mb-4" style="font-family: Montserrat, sans-serif; font-size: 18px;">
+                  Get the restful night of sleep you deserve, with Sleepiest’s<br class="d-none d-sm-inline" />
+                  features, bedtime stories, sleep sounds, meditations and sleep tracking.
+               </p>
+               <div class="d-flex align-items-center gap-2">
+                  <a href="#main-cotent" class="btn text-white fw-medium px-3 py-2" style="background-color: #543D9F; border-radius: 25px;">
+                  Learn More
+                  </a>
+                  <p class="text-white fs-4 mb-0">&#8594;</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Features Section -->
+      <section class="py-20 Hi-Purpose">
+         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+               <h2 class="Text-Purpose mb-4">Purpose of <span class="a">Our Project</span></h2>
+               <p class="Text-Dissc">The purpose of this project is to guide people in improving their sleep quality by sharing helpful tips, calming music, and relaxing ideas.
+                  Users can explore a dedicated page with peaceful sounds and advice that help them relax, clear their minds, and get better rest at night.
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-- Main Content 1-->
+      <div id="main-cotent" class="sec1infohome container py-3">
+         <div class="row align-items-center justify-content-center">
+            <div class="row justify-content-center">
+               <div class="col-md-6">
+                  <h2 class="Purpose">Discover the Science of Sleep in Our <span class="Purpose-Span">How Sleep Works</span></h2>
+                  <p class="Science-Sleep">On this page, you’ll learn why sleep matters, how it helps your body and mind, and what you can do to sleep better every night. 
+                     Simple tips and helpful facts will guide you toward healthier sleep habits.
+                  </p>
+                  <a href="Blog.html#sleepmain" class="infohome-button">Learn More</a>
+               </div>
+               <div class="col-md-6 d-flex justify-content-center align-items-center">
+                  <img src="image/Clock-removebg-preview.png" alt="Clock Image" class="img-fluid">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="sec2infohome container-fluid py-3">
+         <div class="row align-items-center justify-content-center">
+            <div class="row justify-content-center">
+               <div class="col-md-3 d-flex justify-content-center align-items-center ">
+                  <img src="Image/Sar-removebg-preview.png" alt="Clock Image" class="img-fluid">
+               </div>
+               <div class="col-md-5 text-end">
+                  <h2 class="Purpose-2">Create a Peaceful Night Routine for Deeper & <span class="Purpose-Span"> More Restful Sleep</span></h2>
+                  <p class="Science-Sleep">Explore tips, articles, and tools that help you sleep better. Learn how meditation, alarms, and healthy habits can improve your rest 
+                     and energy every day.
+                  </p>
+                  <a href="Blog.html#sleeparticle" class="infohome-button">Learn More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="sec1infohome container py-3 mb-5">
+         <div class="row align-items-center justify-content-center">
+            <div class="row justify-content-center">
+               <div class="col-md-6">
+                  <h2 class="Purpose">Relax Your Mind with Calm Music & <span class="Purpose-Span">Peaceful Melodies</span></h2>
+                  <p class="Science-Sleep">Relax with calming sounds like pink noise, ocean waves, and forest streams. Discover what type of sound helps 
+                     your mind unwind and fall asleep peacefully.
+                  </p>
+                  <a href="Blog.html#sleeptips" class="infohome-button">Learn More</a>
+               </div>
+               <div class="col-md-6 d-flex justify-content-center align-items-center">
+                  <img src="CDMUSIC-removebg-preview.png" alt="Clock Image" class="img-fluid">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- LOGIN MODAL -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-body pt-5 pb-2">
+                  <div class="container">
+                     <div class="row align-items-center">
+                        <div class="col-lg-5">
+                           <div class="login-wrapper">
+                              <h2 class="login-title">Login Form</h2>
+                              <form>
+                                 <div class="mb-3">
+                                    <label for="loginEmail" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com" required>
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="loginPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="loginPassword" placeholder="Password" pattern="[A-Za-z]{6,}" required>
+                                 </div>
+                                 <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <a href="#" class="small">Forgot Password?</a>
+                                 </div>
+                                 <div class="d-grid mb-4">
+                                    <button type="submit" class="btn btn-accent btn-block">Login</button>
+                                 </div>
+                              </form>
+                              <div class="text-center text-muted mb-2">Or Continue With</div>
+                              <div class="social-login mb-4">
+                                 <button class="social-btn" aria-label="Sign in with Google"><i class="fab fa-google"></i></button>
+                                 <button class="social-btn" aria-label="Sign in with Facebook"><i class="fab fa-facebook-f"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-7 text-center">
+                           <img src="Image/Sleepy-removebg-preview.png" alt="3D Character" class="character-img"/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- SIGN UP MODAL -->
+      <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+               <div class="modal-body pt-5 pb-1">
+                  <div class="container">
+                     <div class="row align-items-center">
+                        <div class="col-lg-7 text-center">
+                           <img src="Image/222.png" alt="Character" class="character-img" />
+                        </div>
+                        <div class="col-lg-5">
+                           <div class="signup-wrapper">
+                              <h2 class="signup-title">Sign Up Form</h2>
+                              <form>
+                                 <div class="mb-3">
+                                    <label for="signupName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="signupName" placeholder="Your Name" required />
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="signupEmail" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="signupEmail" placeholder="name@example.com" pattern="[A-Za-z]{6,}" required>
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="signupPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="signupPassword" placeholder="********" pattern="[A-Za-z]{6,}" required />
+                                 </div>
+                                 <div class="d-grid mb-4">
+                                    <button type="submit" class="btn btn-accent btn-block">Sign Up</button>
+                                 </div>
+                              </form>
+                              <div class="text-center text-muted mb-2">Or Continue With</div>
+                              <div class="social-login mb-4">
+                                 <button class="social-btn" aria-label="Sign up with Google"><i class="fab fa-google"></i></button>
+                                 <button class="social-btn" aria-label="Sign up with Facebook"><i class="fab fa-facebook-f"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <!--Contact-->
+   <footer id="foot" class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="d-flex align-items-center">
+                  <img class="sleep-photo" src="Image/Logo-New-removebg-preview.png" alt="">
+                  <h4 class="title">
+                     Deep <span class="sleep-text">Sleep</span>
+                  </h4>
+               </div>
+               <p class="text-sleep">Helping the world to sleep better, each individuals at a time.</p>
+               <button type="button" class="btn-contact " data-bs-toggle="modal" data-bs-target="#contactModal">
+               Contact Us</button>
+            </div>
+            <div class="col-lg-2">
+               <h5><b>Project</b></h5>
+               <ul class="list-unstyled contact-info">
+                  <li class="home-gap"><a href="Home.html" class="text-decoration-none">Home</a></li>
+                  <li class="home-gap"><a href="About.html" class="text-decoration-none">About</a></li>
+                  <li class="home-gap"><a href="Blog.html" class="text-decoration-none">Blog</a></li>
+               </ul>
+            </div>
+            <div
+               class="col-lg-2">
+               <h5><b> Help Center</b></h5>
+               <ul class="list-unstyled contact-info">
+                  <li class="home-gap">Contact</li>
+               </ul>
+            </div>
+            <div
+               class="col-lg-2">
+               <h5><b>Sources</b></h5>
+               <ul class="list-unstyled contact-info">
+                  <li class=" home-gap ">
+                     <a href="sources.html" target="_blank" class="text-decoration-none"> References</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <!--Icon-Footer -->
+           <div class="fb-logo">
+
+            <a href="https://www.facebook.com/share/18mpoypT6z/?mibextid=wwXIfr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+               </svg></a>
+            </div>
+            <div class="ig-logo">
+            <a href="https://www.instagram.com/theomyat5320?igsh=MXd0NjR1YXRieDhuZA%3D%3D&utm_source=qr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+               </svg></a>
+            </div>
+            <div class="youtube-logo">
+               <a href="https://www.youtube.com/@aungmyat2193"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+               </svg></a>
+            </div>
+         <div class="footer-bottom">
+            Reach out to us at @Deep Sleep 2025.
+         </div>
+      </div>
+   </footer>
+   <!-- Contact Modal -->
+   <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-1">
+               <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <div class="row">
+                  <!-- Left side (Contact Info) -->
+                  <div class="col-md-5 contact-left">
+                     <p>Feel free to drop us an email. Deep Sleep phone calls work as well!</p>
+                     <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
+                           <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                        09788882470 <br>
+                        <span class="phone-logo" >
+                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
+                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708"/>
+                           </svg>
+                           09785340575
+                        </span>
+                     </p>
+                     <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                        deepsleep@gmail.com
+                     </p>
+                     <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                           <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                           <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        123 Dreamscape Avenue,<br>
+                        <span class="location-down">Suite 2025,</span> Cloud City
+                     </p>
+                  </div>
+                  <!-- Right side (Form) -->
+                  <div class="col-md-7">
+                     <form>
+                        <div class="mb-3">
+                           <label for="name" class="form-label">Name</label>
+                           <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                           <label for="email" class="form-label">Email Address</label>
+                           <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                           <label for="message" class="form-label">Message</label>
+                           <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer border-0">
+               <button type="button" class="btn-hover" data-bs-dismiss="modal">Close</button>
+               <button type="submit" class="btn-hover" data-bs-dismiss="modal">Submit</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- LOGIN MODAL -->
+   <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-body pt-5 pb-2">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-5">
+                        <div class="login-wrapper">
+                           <h2 class="login-title">Login Form</h2>
+                           <form>
+                              <div class="mb-3">
+                                 <label for="loginEmail" class="form-label">Email Address</label>
+                                 <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com" required>
+                              </div>
+                              <div class="mb-3">
+                                 <label for="loginPassword" class="form-label">Password</label>
+                                 <input type="password" class="form-control" id="loginPassword" placeholder="Password" pattern="[A-Za-z]{6,}" required>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center mb-3">
+                                 <a href="#" class="small">Forgot Password?</a>
+                              </div>
+                              <div class="d-grid mb-4">
+                                 <button type="submit" class="btn btn-accent btn-block">Login</button>
+                              </div>
+                           </form>
+                           <div class="text-center text-muted mb-2">Or Continue With</div>
+                           <div class="social-login mb-4">
+                              <button class="social-btn" aria-label="Sign in with Google"><i class="fab fa-google"></i></button>
+                              <button class="social-btn" aria-label="Sign in with Facebook"><i class="fab fa-facebook-f"></i></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-7 text-center">
+                        <img src="Image/Sleepy-removebg-preview.png" alt="3D Character" class="character-img"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- SIGN UP MODAL -->
+   <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-body pt-5 pb-1">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-7 text-center">
+                        <img src="Image/222.png" alt="Character" class="character-img" />
+                     </div>
+                     <div class="col-lg-5">
+                        <div class="signup-wrapper">
+                           <h2 class="signup-title">Sign Up Form</h2>
+                           <form>
+                              <div class="mb-3">
+                                 <label for="signupName" class="form-label">Name</label>
+                                 <input type="text" class="form-control" id="signupName" placeholder="Your Name" required />
+                              </div>
+                              <div class="mb-3">
+                                 <label for="signupEmail" class="form-label">Email Address</label>
+                                 <input type="email" class="form-control" id="signupEmail" placeholder="name@example.com" required>
+                              </div>
+                              <div class="mb-3">
+                                 <label for="signupPassword" class="form-label">Password</label>
+                                 <input type="password" class="form-control" id="signupPassword" placeholder="********" pattern="[A-Za-z]{6,}" required />
+                              </div>
+                              <div class="d-grid mb-4">
+                                 <button type="submit" class="btn btn-accent btn-block">Sign Up</button>
+                              </div>
+                           </form>
+                           <div class="text-center text-muted mb-2">Or Continue With</div>
+                           <div class="social-login mb-4">
+                              <button class="social-btn" aria-label="Sign up with Google"><i class="fab fa-google"></i></button>
+                              <button class="social-btn" aria-label="Sign up with Facebook"><i class="fab fa-facebook-f"></i></button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</html>
+</html>
